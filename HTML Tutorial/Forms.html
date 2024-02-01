@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        body{
+            background-color: rgb(190, 184, 173);
+        }
+        button{
+            background-color: ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Registration form:</h3>
+        <p>This is registration form used to gather data of Inter students by GOI(Government of INDIA).</p>
+
+    </header>
+    <main>
+        <form action="/action.php">
+            <label for="fname">Enter your First Name:</label>
+            <input type="text"  name="fname" id="fname">
+            <br>
+            <label for="lname">Enter your Last Name:</label>
+            <input type="text" name="lname" id="lname">
+            <br>
+
+            <h4>please select your class:</h4>
+            <label for="101">Class XI</label>
+            <input type="radio" name="class" id="101" value="class XI">
+            <label for="102">Class XII</label>
+            <input type="radio" name="class" id="102" value="class XII">
+
+            <h3>Please login with your school id: </h3>
+            <label for="uname">Username:</label>
+            <input type="text" placeholder="Enter your username" id="uname" name="uname"><br>
+            <label for="password">Password:
+                <input type="password" placeholder="Enter your password" id="password" name="password">
+            </label>
+            <h4>Select your Subjects:</h4>
+            <label for="103">MATHS
+                <input type="checkbox" name="subject" id="103" value="maths">
+            </label>
+            <label for="104">PHYSICS
+                <input type="checkbox" name="subject" id="104" value="physics">
+            </label>
+            <label for="105">CHEMISTRY
+                <input type="checkbox" name="subject" id="105" value="chemistry">
+            </label>
+            <label for="106">BIOLOGY
+                <input type="checkbox" name="subject" id="106" value="biology">
+            </label>
+
+            <h4>Please select your city:</h4>
+            <select name="city">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Delhi">Delhi</option>
+            </select><br><br>
+            <input type="submit" Value="Submit">
+        </form>
+    </main>
+    <footer>
+        <h5>please contact us at yougov@gmail.com</h5>
+    </footer>
+    
+</body>
+</html>
